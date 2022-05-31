@@ -5,7 +5,7 @@ import { renderAppFooter, renderMainSection } from '../utils';
 import AddExpensesModal from './AddExpensesModal';
 import AddFriendModal from './AddFriendsModal';
 
-export const UI = () => {
+export const SplitUI = () => {
   const [openAddFriendModal, setOpenAddFriendModal] = useState(false);
   const [openAddExpensesModal, setOpenAddExpensesModal] = useState(false);
   const localStorageList = localStorage.getItem('friendList');
@@ -42,4 +42,4 @@ export const UI = () => {
     </Box>
   );
 };
-export default UI;
+export default SplitUI;

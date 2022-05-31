@@ -1,12 +1,12 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import UI from '../components/Container/SplitUI/UI';
+import SplitUI from '../components/Container/SplitUI/SplitUI';
 
 export const RouteComponent = () => {
   return (
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<UI />} />
+          <Route path="/" element={<SplitUI />} />
         </Routes>
       </BrowserRouter>
     </>
