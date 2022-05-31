@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Getting Started splitui
+
+<img width="495" alt="Screenshot 2022-05-31 at 10 21 00 AM" src="https://user-images.githubusercontent.com/85451270/171151655-1a3d053b-949a-4d6f-971c-abfc02864169.png">
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -45,4 +47,3 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-# splitui
