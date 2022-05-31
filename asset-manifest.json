@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.d70ac719.js",
-    "static/js/787.7a4954fc.chunk.js": "/static/js/787.7a4954fc.chunk.js",
-    "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.d70ac719.js.map": "/static/js/main.d70ac719.js.map",
-    "787.7a4954fc.chunk.js.map": "/static/js/787.7a4954fc.chunk.js.map"
+    "main.css": "/splitui/static/css/main.073c9b0a.css",
+    "main.js": "/splitui/static/js/main.29b29ca1.js",
+    "static/js/787.7a4954fc.chunk.js": "/splitui/static/js/787.7a4954fc.chunk.js",
+    "index.html": "/splitui/index.html",
+    "main.073c9b0a.css.map": "/splitui/static/css/main.073c9b0a.css.map",
+    "main.29b29ca1.js.map": "/splitui/static/js/main.29b29ca1.js.map",
+    "787.7a4954fc.chunk.js.map": "/splitui/static/js/787.7a4954fc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.d70ac719.js"
+    "static/js/main.29b29ca1.js"
   ]
 }
