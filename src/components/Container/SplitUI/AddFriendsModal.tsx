@@ -1,6 +1,6 @@
 import { Box, FormField, Button, Form, Text, Layer, Heading } from 'grommet';
 import { useState } from 'react';
-import { AddFormDataIType, AddFriendModalInterface } from '../utils';
+import { AddFormDataIType, AddFriendModalInterface, emailRegex } from '../utils';
 
 export const AddFriendModal = ({
   toggleAddFriendModal,
@@ -54,9 +54,9 @@ export const AddFriendModal = ({
                 name="email"
                 required
                 validate={[
-                  { regexp: /^[a-z]/i },
+                  { regexp: emailRegex },
                   (email) => {
-                    if (email && email.length === 1) return 'must be >1 character';
+                    if (email && email.length === 1) return 'must be a valid email';
                     return undefined;
                   }
                 ]}
@@ -75,11 +75,11 @@ export const AddFriendModal = ({
                   color="dark-3"
                 />
                 <Button
-                  label={<Text color={'gray'}>{'Add'} </Text>}
+                  label={<Text>{'Add'} </Text>}
                   primary
                   disabled={!valid}
                   type="submit"
-                  color="blue"
+                  // color="blue"
                 />
               </Box>
             </Form>

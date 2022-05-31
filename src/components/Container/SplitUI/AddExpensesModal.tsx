@@ -167,11 +167,10 @@ export const AddExpensesModal = ({ toggleAddExpensesModal }: AddExpensesModalInt
                   color="dark-3"
                 />
                 <Button
-                  label={<Text color={'gray'}>{'Save'} </Text>}
+                  label={<Text>{'Save'} </Text>}
                   primary
                   disabled={!validAddExpense}
                   type="submit"
-                  color="blue"
                 />
               </Box>
             </Form>
